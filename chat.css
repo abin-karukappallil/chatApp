@@ -1,0 +1,99 @@
+body {
+    background-size: contain;
+    height: 100vh;
+    color: white;
+    background: url("bg.png"), linear-gradient(190deg, #2C3C3B 0.52%, #272727 95.97%);
+}
+
+section {
+    height: calc(100% - 132px);
+    padding: 20px;
+}
+
+section h1 {
+    font-size: 3em;
+    height: 15%;
+}
+
+section h1 span {
+    color: #919561;
+}
+
+section .message-container {
+    height: 75%;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+    align-items: flex-end;
+    overflow-y: scroll;
+
+}
+
+section .message-container .message-content {
+    margin-right: 20px;
+}
+
+section .message-container .name {
+    position: absolute;
+    top: 2px;
+    font-size: 8px;
+    right: 13px;
+    font-weight: 800;
+    color: #919561;
+    text-transform: math-auto;
+}
+
+section .message-container .time {
+    position: absolute;
+    bottom: 2px;
+    font-size: 7px;
+    right: 13px;
+    font-weight: 800;
+    color: #919561;
+    text-transform: math-auto;
+}
+
+section .message-container::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+
+section .message-container .message {
+    background: #D9D9D9;
+    padding: 20px;
+    color: black;
+    border-radius: 20px 0px 20px 20px;
+    position: relative;
+    width: fit-content;
+}
+
+.send-option {
+    margin-top: 20px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.send-option input {
+    width: 100%;
+    border-radius: 29.989px;
+    background: #1D1C1A;
+    border: none;
+    padding: 10px;
+    min-height: 30px;
+    color: white;
+}
+
+.send-option button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    padding: 5px;
+    cursor: pointer;
+}
