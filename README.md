@@ -1,4 +1,4 @@
-# ChatApp (Under Development)
+# ChatApp (Under Development)🛠
 
 ## Description
 ChatApp is a real-time messaging application currently under development. It aims to provide users with a seamless and intuitive platform for communication.
